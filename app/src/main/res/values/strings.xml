@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GiphyGallery</string>
+    <string name="btn_grid">grid</string>
+    <string name="btn_list">list</string>
+</resources>
