@@ -8,6 +8,24 @@
     android:id="@+id/parentView"
     tools:context=".MainActivity">
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/ll_search"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Search GIPHY"
+            android:id="@+id/search_input"
+            android:layout_weight="3"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:layout_weight="1"
+            android:id="@+id/btn_search"/>
+    </LinearLayout>
+    <LinearLayout
         android:id="@+id/ll_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
